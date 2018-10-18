@@ -1,0 +1,175 @@
+@media (min-width: 992px) {
+  body {
+    padding-top: 0;
+    padding-left: 17rem;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem;
+  font-family: 'Arial';
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+h3 {
+  font-size: 2rem;
+}
+
+p.lead {
+    font-size: 1.15rem;
+    font-weight: 400;
+}
+
+.subheading {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: 'Roboto', 'Arial', 'Muli';
+  font-size: 1.4rem;
+  
+}
+
+@media (min-width: 992px) {
+    #sideNav {
+        text-align: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        max-width: 20%;
+        height: 100%;
+    }
+    #sideNav .navbar-collapse .navbar-nav .nav-item {
+        display: block;
+    }
+    #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
+        display: block;
+    }
+}
+
+.social-icons a{
+    display: inline-block;
+    height: 3rem;
+    width: 3rem;
+    background-color: #d3d3d3; 
+    color: #495057 !important;
+    text-align: center;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    line-height: 3rem;
+    margin-right: 1rem;
+}
+
+.social-icons a:hover{
+    background-color: #9ACD32;
+}
+
+.comp-skills {
+    font-size: 3rem;
+}
+
+.comp-skills .list-inline-item img {
+    width: 3rem;
+    height: 3.1rem;
+    padding-bottom: 5px;
+}
+
+section.resume-section {
+  padding-top: 5rem !important;
+  padding-bottom: 5rem !important;
+  max-width: 75rem;
+}
+
+section.resume-section .resume-item .resume-date {
+  min-width: none;
+}
+
+@media (min-width: 768px) {
+  section.resume-section {
+    min-height: 100vh;
+  }
+  section.resume-section .resume-item .resume-date {
+    min-width: 18rem;
+  }
+}
+
+@media (min-width: 992px) {
+  section.resume-section {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+  }
+}
+
+#sideNav .navbar-brand .d-none img {
+    position: relative;
+    padding: 0;
+    top: 90px;
+    left: 17px;
+}
+
+.resume-date{
+    min-width: 18rem;
+}
+
+.navbar-nav {
+    padding: 0;
+    list-style: none;
+    display: block;
+}
+
+.navbar-nav li{
+    text-indent: 20px;
+    line-height: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.navbar-nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+li > a:hover, a:focus, a:active {
+    color: white;
+}
+
+.bg-primary {
+  background-color: #9ACD32 !important;
+}
+
+.text-primary {
+  color: #9ACD32 !important;
+  font-family: 'Arial' !important; 
+}
+
+.subheading > a{
+    text-transform: lowercase;
+}
+
+
+.profile-pic {
+    max-width: 10rem;
+    max-height: 10rem;
+    border: 0.5rem solid rgba(250, 250, 250, 0.5);
+}
+
